@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GjammT.Public", "GjammT.Public\GjammT.Public\GjammT.Public.csproj", "{77BB7378-5293-43E3-A5B8-57F072568648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GjammT.Public.Client", "GjammT.Public\GjammT.Public.Client\GjammT.Public.Client.csproj", "{FE56093B-5E10-44B3-A062-210CBA8F931B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77BB7378-5293-43E3-A5B8-57F072568648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BB7378-5293-43E3-A5B8-57F072568648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BB7378-5293-43E3-A5B8-57F072568648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BB7378-5293-43E3-A5B8-57F072568648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE56093B-5E10-44B3-A062-210CBA8F931B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE56093B-5E10-44B3-A062-210CBA8F931B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE56093B-5E10-44B3-A062-210CBA8F931B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE56093B-5E10-44B3-A062-210CBA8F931B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
