@@ -1,20 +1,356 @@
 ﻿@inherits LayoutComponentBase
-
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+<NavMenu></NavMenu>
+<main>
+    <section class="relative min-h-screen flex items-center bg-gradient-animated overflow-hidden pt-16 md:pt-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h1
+                    class="text-4xl sm:text-6xl lg:text-7xl font-orbitron font-bold text-gray-800 tracking-tight leading-tight">
+                    Evolve Your Bookings. <span class="text-cyan-600">Infinitely.</span>
+                </h1>
+                <p class="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+                    Experience GjammT Booking System: The evergreen, hyper-modular platform designed to adapt,
+                    scale, and thrive with your business. Never outgrow your tools again.
+                </p>
+                <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="#features"
+                       class="w-full sm:w-auto bg-cyan-500 text-white font-semibold py-3 px-8 rounded-full text-lg hover:bg-cyan-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                        See GjammT in Action
+                    </a>
+                    <a href="#pillars"
+                       class="w-full sm:w-auto bg-white text-gray-700 font-semibold py-3 px-8 rounded-full text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 border border-gray-200 shadow-lg">
+                        Explore Modularity
+                    </a>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
+    <section class="py-20 lg:py-32 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-rajdhani text-gray-800">Stop Patching. Start
+                    Architecting.</h2>
+                <p class="mt-4 text-lg text-gray-500 max-w-3xl mx-auto">This section introduces the core problem
+                    with traditional booking systems and contrasts it with GjammT's modern approach. We aim to show
+                    users why a paradigm shift is necessary for businesses that want to remain agile and
+                    competitive.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 lg:gap-16 max-w-6xl mx-auto items-start">
+                <div class="p-8 border border-gray-200 rounded-2xl h-full">
+                    <h3 class="text-2xl font-bold font-rajdhani text-gray-500 mb-4 text-center">The Old Way 🥀</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-red-400 mr-3 mt-1">❌</span><span><strong class="font-semibold">Rigid Structures:</strong> Locked into features you don't need, and missing ones you do.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-400 mr-3 mt-1">❌</span><span><strong class="font-semibold">Costly Upgrades:</strong> Forced, disruptive migrations that drain time and resources.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-400 mr-3 mt-1">❌</span><span><strong class="font-semibold">Integration Nightmares:</strong> Walled gardens that don't play well with your existing tech stack.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-400 mr-3 mt-1">❌</span><span><strong class="font-semibold">Feature Bloat or Deficit:</strong> Paying for an oversized system or constantly needing workarounds.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="p-8 rounded-2xl h-full bg-cyan-50 border-2 border-cyan-500 transform md:scale-105 shadow-2xl shadow-cyan-500/10">
+                    <h3 class="text-2xl font-bold font-rajdhani text-cyan-700 mb-4 text-center">The GjammT Way ✨
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">✔️</span><span><strong class="font-semibold">Fluid Modularity:</strong> Build your perfect system with plug-and-play features.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">✔️</span><span><strong class="font-semibold">Evergreen Core:</strong> Always on the latest version, seamlessly and securely updated.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">✔️</span><span><strong class="font-semibold">Seamless Ecosystem:</strong> An open, developer-friendly platform built to connect.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">✔️</span><span><strong class="font-semibold">Build Your Perfect Fit:</strong> Activate what you need today, scale with confidence tomorrow.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pillars" class="py-20 lg:py-32 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-rajdhani text-gray-800">The GjammT Difference</h2>
+                <p class="mt-4 text-lg text-gray-500 max-w-3xl mx-auto">Here, we dive into the two fundamental
+                    concepts that make our product unique. Each pillar is presented as a core benefit, helping users
+                    understand the value and long-term advantage of choosing GjammT Booking System.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="p-8 lg:p-10 bg-white rounded-2xl shadow-lg shadow-gray-500/5 card-hover-effect">
+                    <div class="text-5xl mb-4">🌳</div>
+                    <h3 class="text-2xl font-bold font-rajdhani text-gray-800">Always Evolving. Zero Obsolescence.
+                    </h3>
+                    <p class="mt-2 text-gray-600">Our Evergreen Core system is continuously updated, secured, and
+                        enhanced behind the scenes. You always have the latest features and security without
+                        disruptive migrations or versioning headaches. Future-proofed by design.</p>
+                </div>
+                <div class="p-8 lg:p-10 bg-white rounded-2xl shadow-lg shadow-gray-500/5 card-hover-effect">
+                    <div class="text-5xl mb-4">🧱</div>
+                    <h3 class="text-2xl font-bold font-rajdhani text-gray-800">Your Business, Your Rules. Your
+                        System.</h3>
+                    <p class="mt-2 text-gray-600">Craft your ideal booking experience with our extensive library of
+                        plug-and-play modules. From advanced scheduling logic and custom fields to payment gateways
+                        and communication tools – activate only what you need, scale when you're ready.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 lg:py-32 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-rajdhani text-gray-800">Toolkit for Limitless
+                    Possibilities</h2>
+                <p class="mt-4 text-lg text-gray-500 max-w-3xl mx-auto">This section provides a concrete look at the
+                    tools users will have at their disposal. By showcasing specific, powerful features, we
+                    demonstrate the tangible capabilities of the platform and how they solve real-world problems.
+                </p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-50 rounded-xl card-hover-effect border border-gray-100">
+                    <div class="text-3xl mb-3 text-cyan-500">⚡️</div>
+                    <h4 class="font-bold text-lg font-rajdhani">Automated Workflows</h4>
+                    <p class="text-sm text-gray-600 mt-1">Set up intelligent triggers and actions to automate
+                        reminders, follow-ups, and more.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl card-hover-effect border border-gray-100">
+                    <div class="text-3xl mb-3 text-cyan-500">✍️</div>
+                    <h4 class="font-bold text-lg font-rajdhani">Drag & Drop Form Builder</h4>
+                    <p class="text-sm text-gray-600 mt-1">Create custom booking forms with ease to capture the exact
+                        information you need.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl card-hover-effect border border-gray-100">
+                    <div class="text-3xl mb-3 text-cyan-500">🏢</div>
+                    <h4 class="font-bold text-lg font-rajdhani">Multi-Location Management</h4>
+                    <p class="text-sm text-gray-600 mt-1">Manage schedules, resources, and staff across multiple
+                        branches seamlessly.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl card-hover-effect border border-gray-100">
+                    <div class="text-3xl mb-3 text-cyan-500">📊</div>
+                    <h4 class="font-bold text-lg font-rajdhani">Real-time Analytics Dashboard</h4>
+                    <p class="text-sm text-gray-600 mt-1">Gain actionable insights into your booking trends,
+                        revenue, and resource utilization.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl card-hover-effect border border-gray-100">
+                    <div class="text-3xl mb-3 text-cyan-500">🔗</div>
+                    <h4 class="font-bold text-lg font-rajdhani">Developer-Friendly API & CRM Future</h4>
+                    <p class="text-sm text-gray-600 mt-1">Our robust API is the foundation for future integrations.
+                        We are actively seeking partners interested in co-developing seamless connections with their
+                        CRM of choice. Let's build it together!</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl card-hover-effect border border-gray-100">
+                    <div class="text-3xl mb-3 text-cyan-500">🤖</div>
+                    <h4 class="font-bold text-lg font-rajdhani">AI-Powered Scheduling</h4>
+                    <p class="text-sm text-gray-600 mt-1">Optimize your calendar automatically by finding the most
+                        efficient slots for appointments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="use-cases" class="py-20 lg:py-32 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold font-rajdhani text-gray-800">Tailored for Innovators.
+                    Trusted by Leaders.</h2>
+                <p class="mt-4 text-lg text-gray-500 max-w-3xl mx-auto">To make GjammT Booking System relatable,
+                    this section demonstrates its versatility across various industries. By clicking through the
+                    tabs, potential customers can see themselves in the solution and understand how it would
+                    specifically benefit their type of business.</p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-wrap justify-center border-b border-gray-200 mb-8" id="use-case-tabs">
+                    <button data-target="panel-municipalities"
+                            class="use-case-tab py-3 px-6 font-semibold text-gray-500 border-b-2 border-transparent hover:text-cyan-600 transition-colors">
+                        Municipalities
+                    </button>
+                    <button data-target="panel-saas"
+                            class="use-case-tab py-3 px-6 font-semibold text-gray-500 border-b-2 border-transparent hover:text-cyan-600 transition-colors">
+                        SaaS & Tech
+                    </button>
+                    <button data-target="panel-services"
+                            class="use-case-tab py-3 px-6 font-semibold text-gray-500 border-b-2 border-transparent hover:text-cyan-600 transition-colors">
+                        Professional Services
+                    </button>
+                    <button data-target="panel-health"
+                            class="use-case-tab py-3 px-6 font-semibold text-gray-500 border-b-2 border-transparent hover:text-cyan-600 transition-colors">
+                        Health & Wellness
+                    </button>
+                    <button data-target="panel-enterprise"
+                            class="use-case-tab py-3 px-6 font-semibold text-gray-500 border-b-2 border-transparent hover:text-cyan-600 transition-colors">
+                        Enterprise
+                    </button>
+                </div>
+                <div id="use-case-panels">
+                    <div id="panel-municipalities" class="use-case-panel p-8 bg-white rounded-xl shadow-md">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">For Municipalities (Sweden & Scandinavia)
+                        </h4>
+                        <p class="text-gray-600">GjammT is particularly well-suited for municipalities, especially
+                            in Sweden and across Scandinavia. We are diligently working towards aligning with ADDA
+                            requirements to provide a compliant and efficient booking solution for public sector
+                            needs, from facility rentals to citizen services.</p>
+                    </div>
+                    <div id="panel-saas" class="use-case-panel p-8 bg-white rounded-xl shadow-md hidden">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">For SaaS & Tech</h4>
+                        <p class="text-gray-600">Streamline your sales and support funnels with seamless demo
+                            bookings and automated onboarding schedules. Integrate directly with your CRM to keep
+                            your data synchronized and your team efficient.</p>
+                    </div>
+                    <div id="panel-services" class="use-case-panel p-8 bg-white rounded-xl shadow-md hidden">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">For Professional Services</h4>
+                        <p class="text-gray-600">Manage a complex appointment matrix for consultants, lawyers, or
+                            coaches. Offer clients a polished portal to book, manage, and pay for packages and
+                            sessions, reducing administrative overhead.</p>
+                    </div>
+                    <div id="panel-health" class="use-case-panel p-8 bg-white rounded-xl shadow-md hidden">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">For Health & Wellness</h4>
+                        <p class="text-gray-600">Coordinate class schedules, practitioner availability, and client
+                            appointments in one secure place. Ensure a smooth and professional booking experience
+                            for your patients and members.</p>
+                    </div>
+                    <div id="panel-enterprise" class="use-case-panel p-8 bg-white rounded-xl shadow-md hidden">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">For Enterprise</h4>
+                        <p class="text-gray-600">Deploy a scalable resource management solution for rooms,
+                            equipment, and fleets. Enable cross-departmental coordination with granular permissions
+                            and robust reporting for oversight.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="cta" class="py-20 lg:py-32 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div
+                class="max-w-3xl mx-auto text-center bg-cyan-500 text-white p-10 lg:p-16 rounded-3xl shadow-2xl shadow-cyan-500/30">
+                <h2 class="text-3xl md:text-5xl font-bold font-orbitron">Ready to Build Your Future of Booking?</h2>
+                <p class="mt-6 text-lg text-cyan-100">
+                    Get early access to GjammT Booking System and redefine what's possible for your business. Join
+                    the waitlist today.
+                </p>
+                <div class="mt-10">
+                    <a href="#"
+                        class="bg-white text-cyan-600 font-bold py-4 px-10 rounded-full text-xl hover:bg-cyan-50 transition-all duration-300 transform hover:scale-105">
+                        Join the Revolution
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+</main>
+
+<footer class="bg-gray-800 text-gray-400">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h5 class="font-bold text-white mb-3">GjammT</h5>
+                <p class="text-sm">Booking. Reimagined.</p>
+            </div>
+            <div>
+                <h5 class="font-semibold text-gray-200 mb-3">Product</h5>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#pillars" class="hover:text-white">Solution</a></li>
+                    <li><a href="#features" class="hover:text-white">Features</a></li>
+                    <li><a href="#use-cases" class="hover:text-white">Use Cases</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="font-semibold text-gray-200 mb-3">Company</h5>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">About Us</a></li>
+                    <li><a href="#" class="hover:text-white">Blog</a></li>
+                    <li><a href="#" class="hover:text-white">Careers</a></li>
+                </ul>
+            </div>
+            <!--<div>
+                <h5 class="font-semibold text-gray-200 mb-3">Legal</h5>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white">Terms of Service</a></li>
+                    <li><a href="#" class="hover:text-white">Security</a></li>
+                </ul>
+            </div>-->
+        </div>
+        <div class="mt-10 pt-8 border-t border-gray-700 text-center text-sm">
+            <p>&copy; 2025 GjammT Booking System - Joel Mandell. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const header = document.getElementById('header');
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        function updateHeaderBackground() {
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+                header.classList.remove('header-menu-open'); // Ensure menu-open style doesn't persist if scrolled
+            } else if (!mobileMenu.classList.contains('hidden')) {
+                header.classList.add('header-menu-open');
+                header.classList.remove('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+                header.classList.remove('header-menu-open');
+            }
+        }
+
+        window.addEventListener('scroll', updateHeaderBackground);
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            updateHeaderBackground(); // Update header immediately when menu toggles
+        });
+
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                updateHeaderBackground(); // Update header immediately when menu closes via link
+            });
+        });
+
+        const tabs = document.querySelectorAll('.use-case-tab');
+        const panels = document.querySelectorAll('.use-case-panel');
+
+        if (tabs.length > 0 && panels.length > 0) {
+            tabs[0].classList.add('tab-active');
+            panels.forEach(p => p.classList.add('hidden')); // Hide all panels initially
+            const firstPanelId = tabs[0].getAttribute('data-target');
+            const firstPanel = document.getElementById(firstPanelId);
+            if (firstPanel) {
+                firstPanel.classList.remove('hidden'); // Show only the first panel
+            }
+        }
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('tab-active'));
+                panels.forEach(p => p.classList.add('hidden'));
+                tab.classList.add('tab-active');
+                const targetPanelId = tab.getAttribute('data-target');
+                const targetPanel = document.getElementById(targetPanelId);
+                if (targetPanel) {
+                    targetPanel.classList.remove('hidden');
+                }
+            });
+        });
+
+        // Initial call to set header state
+        updateHeaderBackground();
+    });
+</script>
 
 <div id="blazor-error-ui" data-nosnippet>
     An unhandled error has occurred.
